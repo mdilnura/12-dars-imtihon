@@ -141,3 +141,45 @@
     border-bottom-left-radius: 15px;
   }
 }
+.design {
+  margin-bottom: 16rem;
+}
+
+.design-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-item {
+  width: 541px;
+  height: 308px;
+  text-align: center;
+  border-radius: 1.5rem;
+}
+.des1 {
+  background-image: linear-gradient(rgba(0, 0, 0 0.8), rgba(0, 0, 0 0.8)),
+    url(https://picsum.photos/id/1/541/308);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.des2 {
+  background-image: linear-gradient(rgba(0, 0, 0 0.8), rgba(0, 0, 0 0.8)),
+    url(https://picsum.photos/id/4/541/308);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.designtitle {
+  margin-top: 12rem;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.designtext {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: 5px;
+  color: #fff;
+}
