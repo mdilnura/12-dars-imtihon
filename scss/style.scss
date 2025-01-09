@@ -1,0 +1,21 @@
+@import "./base/resets";
+@import "./base/typography";
+
+@import "./components/buttons";
+
+@import "./layout/header";
+@import "./pages/home";
+@import "./layout/footer";
+
+@import "./pages/about";
+@import "./pages/app";
+@import "./pages/contact";
+@import "./pages/graphic";
+@import "./pages/locations";
+@import "./pages/web";
+
+@import "./utils/funktions";
+@import "./utils/mixins";
+@import "./utils/variable";
+
+@import "./vendors/normalize";

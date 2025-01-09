@@ -1,0 +1,41 @@
+header {
+  padding: 6.4rem 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sitenav-list {
+  display: flex;
+  gap: 4.2rem;
+  font-size: 1.4rem;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.sitenav-link {
+  color: rgba(51, 49, 54, 1);
+}
+.sitenav-link:hover {
+  text-decoration: underline;
+}
+.hidden-img {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 375px) {
+  .hidden-img {
+    visibility: visible;
+    &:hover {
+      .sitenav-list {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .sitenav-list {
+    display: none;
+  }
+}
